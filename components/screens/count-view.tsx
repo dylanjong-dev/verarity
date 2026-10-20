@@ -103,7 +103,7 @@ export function CountView() {
               onChange={(e) => setCounted(e.target.value)}
               aria-invalid={countedError}
               aria-describedby={countedError ? ids.countedErr : undefined}
-              className="num h-14 rounded-[12px] border-line bg-elevated px-4 text-h2 font-semibold"
+              className="num h-14 rounded-[12px] border-line bg-elevated px-4 text-h2 font-semibold text-[#dedede]"
               placeholder="0"
             />
             {countedError && (
